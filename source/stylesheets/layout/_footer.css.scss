@@ -1,0 +1,19 @@
+#footer {
+	background-color: #333333;
+	color: #CACACA;
+	padding: 40px 0;
+}
+
+#footer a {
+	color: #CCCCCC;
+    letter-spacing: 20px;
+
+}
+
+.footer-icon {
+    transition: color 0.5s;	
+}
+
+.footer-icon:hover {
+    color: #FFFF00;	
+}

@@ -1,0 +1,15 @@
+---
+title: Le Wagon Team page
+---
+
+<div class="padded">
+	<h1 class="text-center">Our Team</h1>
+	<ul class="list-inline text-center">
+		<% ["anne", "seb", "romain"].each do |member| %>
+		<li>
+			<%= image_tag "#{member}.png", class: "img-circle avatar-large" %>
+			<h3><%= member.capitalize %></h3>
+		</li>
+		<% end %>
+	</ul>
+</div>
