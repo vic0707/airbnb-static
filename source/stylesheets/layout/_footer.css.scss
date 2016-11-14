@@ -1,11 +1,11 @@
 #footer {
-	background-color: #333333;
-	color: #CACACA;
+	background-color: $black;
+	color: $iron;
 	padding: 40px 0;
 }
 
 #footer a {
-	color: #CCCCCC;
+	color: $iron;
     letter-spacing: 20px;
 
 }
@@ -15,5 +15,5 @@
 }
 
 .footer-icon:hover {
-    color: #FFFF00;	
+    color: $yellow;	
 }
