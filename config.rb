@@ -50,6 +50,10 @@ activate :autoprefixer
 #   end
 # end
 
+data.flats.each do |owner, flat|
+  proxy "/flats/#{owner}.html", "/flats/show.html", :locals => { :owner => owner }, :ignore => true
+end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
